@@ -1,0 +1,80 @@
+/* .processBar{
+    position: absolute;
+    background : rgba(10,10,10, .5);
+    height: 10vw;
+    width: 1110px;
+} */
+
+@media only screen
+and (min-width : 1024px)
+and (max-width : 1200px) 
+{
+    .processBar{
+    position: absolute;
+    background : rgba(10,10,10, .5);
+    height: 35vw;
+    width: 930px;
+}
+.processBar_gif{
+    background: url('../images/loader_AB.gif') no-repeat;
+    height: 35vw;
+    width: 930px;
+    margin: 100px 400px;
+}
+.row:nth-of-type(odd){
+    background-color: #efefef;
+  }
+  
+  .row:nth-of-type(even){
+    background-color: #ffffff;
+  }
+  
+.gridHeader{
+    font-size: small;
+}
+.btnsize{
+    height: 25px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+}
+
+@media only screen
+and (min-width : 360px)
+and (max-width : 640px) 
+{
+    .processBar{
+    position: absolute;
+    background : rgba(10,10,10, .5);
+    height: 110vw;
+    width: 330px;
+}
+.processBar_gif{
+    background: url('../images/loader_AB.gif') no-repeat;
+    height: 35vw;
+    width: 930px;
+}
+
+}
+
+
+@media only screen
+and (min-width : 600px)
+and (max-width : 1024px) 
+{
+    .processBar{
+    position: absolute;
+    background : rgba(100,100,10, .5);
+    height: 10vw;
+    z-index: 200;
+    width: 512px;
+}
+.processBar_gif{
+    background: url('../images/loader_AB.gif') no-repeat;
+    height: 35vw;
+    width: 930px;
+    margin: 100px 400px;
+}
+
+}
